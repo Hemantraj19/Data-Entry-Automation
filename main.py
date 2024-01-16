@@ -6,7 +6,7 @@ import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-response = requests.get("https://appbrewery.github.io/Zillow-Clone/")
+response = requests.get("your_website_link")
 zillow_web_page = response.text
 
 soup = BeautifulSoup(zillow_web_page, "lxml")
